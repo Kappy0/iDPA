@@ -1,0 +1,37 @@
+<HTML>
+<HEAD>
+<TITLE>Classes and Functions</TITLE>
+<script>
+
+var meowCount = prompt("How many times will the cat meow?", "Please enter here")
+meowCount = parseInt(meowCount)
+
+function Cat(name, age)
+{
+	this.name = name
+	this.age = age
+	this.meow = function(numOfTimes)
+	{	
+		if(numOfTimes <= 0)
+		{
+			alert("Please enter a number greater than 0.")
+		}
+		
+		for(var i = 0; i < numOfTimes; i++)
+		{
+			//document.getElementById("meow").innerHTML = "Meow!<br>"
+			alert("Meow!<br>")
+			//alert("Meow!")
+		}
+	}
+}
+
+var ginger = new Cat("Ginger", 10)
+ginger.meow(meowCount)
+
+</script>
+<BODY>
+<!---<p id = "meow">Meow!</p>--->
+</BODY>
+</HEAD>
+</HTML>

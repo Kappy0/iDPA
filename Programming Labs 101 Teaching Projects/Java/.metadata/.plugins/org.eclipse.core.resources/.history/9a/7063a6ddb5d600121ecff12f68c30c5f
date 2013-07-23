@@ -1,0 +1,56 @@
+import java.util.ArrayList;
+import java.util.Scanner;
+
+public class ArrayListExample
+{
+	public static void main(String args[])
+	{
+		ArrayList<String> animalList = new ArrayList<String>();
+		Scanner scan = new Scanner(System.in);
+		String name;
+		String again;
+		
+		animalList.add("Lucky");
+		animalList.add("Miley");
+		animalList.add("Ginger");
+		
+		System.out.print("The names are: " + animalList);
+		System.out.println();
+		
+		do
+		{
+			System.out.print("Which animal will you take? ");
+			name = scan.next();
+			
+			switch(name)
+			{
+				case "Lucky" :
+				{
+					animalList.remove("Lucky");
+					break;
+				}
+				case "Miley" :
+				{
+					animalList.remove("Miley");
+					break;
+				}
+				case "Ginger" :
+				{
+					animalList.remove("Ginger");
+					break;
+				}
+				default :
+				{
+					System.out.println(name + " doesn't exist!");
+					break;
+				}
+			}
+			
+			System.out.print("Animals left: " + animalList);
+			System.out.println();
+			System.out.print("Take another animal? ");
+			again = scan.next();
+		}
+		while(again == 'Y' || again == 'y' || again == "Yes" || again == 'yes');
+	}
+}
