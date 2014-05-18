@@ -1,0 +1,22 @@
+
+import java.util.Scanner;
+
+public class Arrays 
+{
+	public static void main(String args[])
+	{
+		Scanner scan = new Scanner(System.in);
+		
+		int[] userArray;
+		int[] intArray = new int[10];
+		char[] charArray = new char[10];
+		
+		System.out.print("Enter the size of the int array: ");
+		userArray = new int[scan.nextInt()];
+		userArray[0] = scan.nextInt();
+		
+		System.out.print(intArray);
+		System.out.print(charArray);
+		System.out.print(userArray);
+	}
+}

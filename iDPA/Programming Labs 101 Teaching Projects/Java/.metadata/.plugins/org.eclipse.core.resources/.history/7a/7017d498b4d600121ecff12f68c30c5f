@@ -1,0 +1,16 @@
+import java.util.ArrayList;
+import java.util.Scanner;
+
+public class ArrayListExample
+{
+	public static void main(String args[])
+	{
+		ArrayList<String> animalList = new ArrayList<String>();
+		
+		animalList.add("Lucky");
+		animalList.add("Miley");
+		animalList.add("Ginger");
+		
+		System.out.print("The names are: " + animalList);
+	}
+}

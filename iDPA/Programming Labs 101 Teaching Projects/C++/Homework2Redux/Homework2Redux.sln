@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Homework2Redux", "Homework2Redux\Homework2Redux.vcxproj", "{51408020-AFD8-4327-94C1-4DDB0F357344}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{51408020-AFD8-4327-94C1-4DDB0F357344}.Debug|Win32.ActiveCfg = Debug|Win32
+		{51408020-AFD8-4327-94C1-4DDB0F357344}.Debug|Win32.Build.0 = Debug|Win32
+		{51408020-AFD8-4327-94C1-4DDB0F357344}.Release|Win32.ActiveCfg = Release|Win32
+		{51408020-AFD8-4327-94C1-4DDB0F357344}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

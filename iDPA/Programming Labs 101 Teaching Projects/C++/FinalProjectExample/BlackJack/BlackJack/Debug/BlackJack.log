@@ -1,0 +1,35 @@
+﻿Build started 7/24/2013 9:22:07 AM.
+     1>Project "E:\iDPA\iDPA\Programming Labs 101 Teaching Projects\C++\FinalProjectExample\BlackJack\BlackJack\BlackJack.vcxproj" on node 2 (build target(s)).
+     1>PrepareForBuild:
+         Creating directory "E:\iDPA\iDPA\Programming Labs 101 Teaching Projects\C++\FinalProjectExample\BlackJack\Debug\".
+       InitializeBuildStatus:
+         Creating "Debug\BlackJack.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt CardFunctions.cpp main.cpp
+         main.cpp
+     1>e:\idpa\idpa\programming labs 101 teaching projects\c++\finalprojectexample\blackjack\blackjack\main.cpp(11): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned int', possible loss of data
+         CardFunctions.cpp
+         Generating Code...
+     1>e:\idpa\idpa\programming labs 101 teaching projects\c++\finalprojectexample\blackjack\blackjack\cardfunctions.cpp(150): warning C4715: 'playAgain' : not all control paths return a value
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\BlackJack.exe.embed.manifest.res" Debug\BlackJack_manifest.rc 
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\iDPA\iDPA\Programming Labs 101 Teaching Projects\C++\FinalProjectExample\BlackJack\Debug\BlackJack.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\BlackJack.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:\iDPA\iDPA\Programming Labs 101 Teaching Projects\C++\FinalProjectExample\BlackJack\Debug\BlackJack.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\iDPA\iDPA\Programming Labs 101 Teaching Projects\C++\FinalProjectExample\BlackJack\Debug\BlackJack.lib" /MACHINE:X86 Debug\BlackJack.exe.embed.manifest.res
+         Debug\CardFunctions.obj
+         Debug\main.obj
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\BlackJack.exe.embed.manifest" /manifest Debug\BlackJack.exe.intermediate.manifest
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\BlackJack.exe.embed.manifest.res" Debug\BlackJack_manifest.rc 
+       LinkEmbedManifest:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\iDPA\iDPA\Programming Labs 101 Teaching Projects\C++\FinalProjectExample\BlackJack\Debug\BlackJack.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\BlackJack.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:\iDPA\iDPA\Programming Labs 101 Teaching Projects\C++\FinalProjectExample\BlackJack\Debug\BlackJack.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\iDPA\iDPA\Programming Labs 101 Teaching Projects\C++\FinalProjectExample\BlackJack\Debug\BlackJack.lib" /MACHINE:X86 Debug\BlackJack.exe.embed.manifest.res
+         Debug\CardFunctions.obj
+         Debug\main.obj
+         BlackJack.vcxproj -> E:\iDPA\iDPA\Programming Labs 101 Teaching Projects\C++\FinalProjectExample\BlackJack\Debug\BlackJack.exe
+       FinalizeBuildStatus:
+         Deleting file "Debug\BlackJack.unsuccessfulbuild".
+         Touching "Debug\BlackJack.lastbuildstate".
+     1>Done Building Project "E:\iDPA\iDPA\Programming Labs 101 Teaching Projects\C++\FinalProjectExample\BlackJack\BlackJack\BlackJack.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:11.66

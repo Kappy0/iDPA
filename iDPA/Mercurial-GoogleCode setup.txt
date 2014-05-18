@@ -1,0 +1,22 @@
+Steps to setting up Mercurial repository with Google Code:
+
+   - If you don't have a Google account, make one.
+   - Go to code.google.com and click on "Create a new project".
+   - Fill out the form
+          - Project Name should be yourname-projectname "ryanklaproth-myproject"
+          - Project summary is a summary of what your project is about
+          - Description is project summary explored in-depth
+          - Version control is Mercurial
+          - Source Code License is MIT License
+          - Project label(s) is optional
+   - Right click your project folder and select "Hg Workbench"
+   - In the Workbench, go to File -> New Repository
+   - Go to code.google.com/hosting/settings. if you're not logged in, do so.
+   - In the Workbench, go to View -> Synchronize
+   - Enter in https://username:password@code.google.com/p/googlecodeprojectname
+   - Go to File -> Settings
+   - Go to Edit File in your golbal settings
+   - enter [ui] username = yourgoogleusername <username email> and save
+   - Go to View -> Commit
+   - Select all files and hit Commit
+   - Select Push all files to URL

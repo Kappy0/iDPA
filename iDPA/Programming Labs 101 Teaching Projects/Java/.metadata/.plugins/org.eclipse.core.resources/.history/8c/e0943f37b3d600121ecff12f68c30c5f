@@ -1,0 +1,15 @@
+import java.util.ArrayList;
+import java.util.Scanner;
+
+public class ArrayListExample
+{
+	public static void main(String args[])
+	{
+		ArrayList<String> animalList = new ArrayList<String>();
+		
+		char[] lucky = { 'L', 'u', 'c', 'k', 'y' }; 
+		animalList.add(lucky);
+		animalList.add("Hello");
+		
+	}
+}
